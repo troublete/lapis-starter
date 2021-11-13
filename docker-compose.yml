@@ -13,7 +13,7 @@ services:
             - DATABASE_URL=postgresql://postgres:password@postgres/postgres
             - DATABASE_HOST=postgres
             - DATBASE_USER=postgres
-            - DATABASE_PASSWORD=postgres
+            - DATABASE_PASSWORD=password
             - DATABASE_NAME=postgres
     postgres:
         image: postgres:11-alpine
